@@ -4,11 +4,11 @@
   "type": "module",
   "main": "server.js",
   "engines": {
-    "node": "14.x"
+    "node": "22.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
